@@ -1,13 +1,13 @@
 from bot import InternetSpeedTwitterBot
 
 
-PROMISED_DOWN = 150
-PROMISED_UP = 10
+PROMISED_DOWN = 'YOUR PROMISED INTERNET DOWNLOAD SPEED'
+PROMISED_UP = 'YOUR PROMISED INTERNET UPLOAD SPEED'
 
 CHROME_DRIVER_PATH = '/Users/mona/PycharmProjects/chromedriver'
 
-TWITTER_USER = 'blahblahbl34231'
-TWITTER_PW = 'pnx_xaf2yar1vqz4RCM'
+TWITTER_USER = 'YOUR TWITTER NAME'
+TWITTER_PW = 'YOUR TWITTER PASSWORD'
 
 speed_bot = InternetSpeedTwitterBot()
 speed_bot.get_internet_speed()
